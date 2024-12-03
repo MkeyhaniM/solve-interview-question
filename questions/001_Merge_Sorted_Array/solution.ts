@@ -1,6 +1,6 @@
 import removeZero from '../../utils/helpers'
 
-function merge(nums1: number[], m: number, nums2: number[], n: number): void {
+export default function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     if((nums1.length > 0) || (nums2.length > 0)){
       const removeZeroNums1 =  removeZero(nums1);
       const removeZeroNums2 =  removeZero(nums2);
